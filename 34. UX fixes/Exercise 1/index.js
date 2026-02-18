@@ -20,7 +20,6 @@ document.addEventListener('click', function(e){
     }
     else if(e.target.dataset.reply){
         handleReplyClick(e.target.dataset.reply)
-        render()
     }
     else if(e.target.id === 'tweet-btn'){
         handleTweetBtnClick()
